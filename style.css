@@ -258,7 +258,7 @@
 
 .hero-text {
     width: 453px;
-    height: 450px;
+/*     height: 450px; */
     text-align: left;
 
 }
@@ -340,4 +340,9 @@
 
 .last {
     padding: 100px;
+}
+@media (max-width:767px) {
+    .last .border-right {
+    border:none;
+    }
 }
